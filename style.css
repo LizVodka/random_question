@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: yellow;
+}
+
+p {
+    color: yellowgreen;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 10px;
+    color: black;
+    background-color: yellow;
+    font-family: 'Source Code Pro', monospace;
+    border: black;
+    border-radius: 5px;
+}
