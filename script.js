@@ -2,15 +2,11 @@ $(function() {
     let questions = [];
     let n;
     let asked = [];
-
+    new_question(questions);
     $.get('questions.txt', function(data) {
         questions = data.split("\n");
         n = questions.length;
     });
-
-    $(document).ready(function() {
-        new_question(questions);
-    })
 
     function new_question(questions) {
         do {
